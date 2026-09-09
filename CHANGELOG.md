@@ -9,6 +9,9 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ### Added / Добавлено
 
+- CI workflow (GitHub Actions): validates `docker compose config` on every push/PR.
+  CI workflow (GitHub Actions): валидация `docker compose config` на каждый push/PR.
+
 - Docker Compose orchestration: `api`, `web` (nginx), `postgres`, `minio`, `minio-init`.
   Оркестрация Docker Compose: `api`, `web` (nginx), `postgres`, `minio`, `minio-init`.
 - Environment template `.env.example` for the full stack.
