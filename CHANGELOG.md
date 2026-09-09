@@ -7,6 +7,11 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+### Added / Добавлено
+
+- CI now builds the `api` and `web` images on every push/PR, checking out MasonicCore and MasonicSkin as sibling contexts.
+  Теперь CI собирает образы `api` и `web` на каждый push/PR, подтягивая MasonicCore и MasonicSkin как соседние контексты.
+
 ## [0.1.0] - 2026-09-09
 
 ### Added / Добавлено
